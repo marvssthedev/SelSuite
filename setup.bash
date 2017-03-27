@@ -30,6 +30,8 @@ rm chromedriver_*.zip
 wget https://github.com/mozilla/geckodriver/releases/download/v0.15.0/geckodriver-v0.15.0-linux64.tar.gz
 tar zxf geckodriver-*.tar.gz
 rm geckodriver-*.tar.gz
+
+wget https://download.microsoft.com/download/3/2/D/32D3E464-F2EF-490F-841B-05D53C848D15/MicrosoftWebDriver.exe
 cd ..
 
 cd server

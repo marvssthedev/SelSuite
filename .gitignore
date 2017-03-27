@@ -1,0 +1,9 @@
+ve
+server
+drivers
+screenshots
+
+*.pyc
+.cache
+.vscode
+__pycache__

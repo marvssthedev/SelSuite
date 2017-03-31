@@ -22,6 +22,10 @@ if [ ! -d "screenshots" ]; then
     mkdir -p "screenshots"
 fi
 
+if [ ! -d "logs" ]; then
+    mkdir -p "logs"
+fi
+
 cd drivers
 wget https://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip
 unzip chromedriver_*.zip

@@ -12,7 +12,7 @@ def pytest_addoption(parser):
 
     parser.addoption('--url',
                      action='store',
-                     default='https://www.codecademy.com/',
+                     default='http://app.myspd.co.uk/#/login',
                      help='url')
 
     parser.addoption('--user', action='store', help='user')
